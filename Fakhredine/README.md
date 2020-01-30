@@ -3,7 +3,7 @@
 
 # DATABSE dataia_Nancy
 
-## Table structure for table questionresponses
+## Table structure for table questionsreponses
 
 
 
@@ -11,7 +11,7 @@
 |:---------------------:|:--------------------------------:|:----------:|:-------:|:---------:|:----------:|:----------:|
 | questions         	| text| No                             |      |  |   |   | 
 | reponse         		| text| No                             |      |  |   |   | 
-| id         		    | text| No                             |      |  |   |   | 
+| id         		    | int(11)| No                             |      |  |   |   | 
 
 
 ## Dumping data for table questionsreponses

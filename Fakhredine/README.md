@@ -1,3 +1,6 @@
+[image1]: ./img/watislov.webp
+
+
 # DATABSE dataia_Nancy
 
 ## Table structure for table questionresponses
@@ -27,3 +30,7 @@
 |Cree en une seule requete la table projetA contenant les variables: resilies, parcours, anciennete et demenagement|CREATE TABLE projectA AS SELECT resilies, parcours, anciennete, demenagement FROM dataia_Nancy;| 10|
 |Creer aussi en une seule requete la table "projetB contenant les variables: resilies, parcours, sinistre, devis, revisions et satisfaction"|CREATE TABLE projectB AS SELECT resilies, parcours, sinistre, devis, revision, satisfaction FROM dataia_Nancy;|11|
 |Créer la table projetC à partir des tables projetA et projetB en utilisant dans un premier temps un « join » et dans un deuxieme temps « with »|1) ALTER TABLE projectA ADD id INT(11) PRIMARY KEY AUTO_INCREMENT; 2)ALTER TABLE projectB ADD id INT(11) PRIMARY KEY AUTO_INCREMENT; 3)CREATE TABLE projectC AS SELECT projectA.resilies, projectA.parcours, projectA.anciennete, projectA.demenagement, projectB.sinistre, projectB.devis, projectB.revision, projectB.satisfaction FROM projectA INNER JOIN projectB ON projectA.id = projectB.id;| 12|
+
+
+
+![alt text][image1]
